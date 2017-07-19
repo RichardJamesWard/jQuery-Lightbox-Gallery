@@ -1,0 +1,138 @@
+
+/* Web Fonts -------------------- */
+@font-face {
+	font-family: 'Abolition Regular';
+	src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+
+.main-header {
+padding-top: 60px;
+height: 700px;
+background: linear-gradient(0deg, #fff, transparent 90%), url('../images/443.5.jpg') no-repeat center;
+background-size: cover;
+text-align: center;
+}
+
+
+
+body {
+color: #878787;
+margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+
+
+.title {
+  color: white;
+  font-size: 1.5rem; 
+	letter-spacing: .065em;
+	font-weight: 200;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+}
+
+
+h1 {  
+    font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+    font-size: 5.625rem; /* 90px/16px  */
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3;
+    text-shadow: 0 1px 1px rgba(0,0,0, .8);
+    margin: 12px 0 0;
+}
+
+.primary-content {
+padding: 10px 5px;
+text-align: center;
+margin: auto;
+margin-top: 10px;
+max-width: 650px;
+background: rgba(0,0,0,0.7); 
+box-shadow: 1px 3px 3px rgba(0,0,0, 0.7);
+    
+}
+
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+text-align: center;
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+
+
+.container{
+    padding-top: 10px;
+    margin:auto;   
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 4px;
+	background:white;
+	margin:5px;
+    box-shadow: 1px 3px 3px rgba(0,0,0, 0.7);
+}
+ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+
+#overlay img {
+    margin-top: 200px;
+    
+}
+
+body li {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+li:hover img {
+	opacity: .5;
+}
+
+
+
+
+
+
+
+
